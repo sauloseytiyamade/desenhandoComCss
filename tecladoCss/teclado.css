@@ -1,0 +1,385 @@
+/* 
+    basedkeyboard colors: 
+        -> #E5DFE3
+        -> #CAC5C7
+    
+    keyButton colors:
+        -> #8EECFF
+        -> #E5DFE3
+        -> #CAC5C7
+    
+
+*/
+
+/* Margin Project */
+
+
+.mt-2{
+    margin-top: 2px;
+}
+.mt-4{
+    margin-top: 4px;
+}
+
+.mt-6{
+    margin-top: 6px;
+}
+
+.mt-8{
+    margin-top: 8px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+
+
+.mb-2{
+    margin-bottom: 2px;
+}
+.mb-4{
+    margin-bottom: 4px;
+}
+
+.mb-6{
+    margin-bottom: 6px;
+}
+
+.mb-8{
+    margin-bottom: 8px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.ml-2{
+    margin-left: 2px;
+}
+.ml-4{
+    margin-left: 4px;
+}
+
+.ml-6{
+    margin-left: 6px;
+}
+
+.ml-8{
+    margin-left: 8px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+
+.mr-2{
+    margin-right: 2px;
+}
+.mr-4{
+    margin-right: 4px;
+}
+
+.mr-6{
+    margin-right: 6px;
+}
+
+.mr-8{
+    margin-right: 8px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+
+.allWidth{
+    width: 120px !important;
+    height: 23px;
+    float: left;
+    text-align: center;
+    margin-left: 60px;
+    padding-top: 5px;
+}
+
+.allWidth2{
+    width: 135px !important;
+    height: 28px;
+    float: left;
+    padding: 0;
+}
+
+/* Css Project */
+
+body{
+    background-color: #000;
+}
+
+.content{
+    width: 1000px;
+    /* border: 1px solid white; */
+    margin: 180px auto;
+}
+
+.basedKeyboard{
+    width: 613px;
+    height: 235px;
+    background-image: linear-gradient(to left, #f4eff1,#fcf7fa);
+    box-shadow: 2px 2px 20px #8EECFF;
+    border-radius: 0.5em;
+    padding: 0;
+    display: block;
+    margin: 130px auto;
+}
+
+.keyButton{
+    width: 29px;
+    height: 28px;
+    border-radius: 0.2em;
+    background-color: #fcf7fa;
+    box-shadow: 0px 4px 0px #f7f2f4, 0px 3px 5px #8EECFF;
+    cursor: pointer;
+    float: left;
+}
+
+.keyButton:active{
+    width: 29px;
+    height: 28px;
+    border-radius: 0.2em;
+    background-color: #f2eff1;
+    box-shadow: 0px 4px 0px #f7f2f4, 0px 3px 15px #6bb1bf;
+    cursor: pointer;
+    float: left;
+}
+
+.keyButtonText{
+    font-size: 8px;
+    text-align: center;
+    padding-top: 4px;
+    font-family: Arial;
+    color: #66c9dd;
+}
+
+.keyButtonBack{
+    width: 68px;
+    height: 28px;
+    border-radius: 0.2em;
+    background-color: #fcf7fa;
+    box-shadow: 0px 4px 0px #f7f2f4, 0px 3px 5px #8EECFF;
+    cursor: pointer;
+    float: left;
+}
+
+.keyButtonBack:active{
+    width: 68px;
+    height: 28px;
+    border-radius: 0.2em;
+    background-color: #f2eff1;
+    box-shadow: 0px 4px 0px #f7f2f4, 0px 3px 15px #6bb1bf;
+    cursor: pointer;
+    float: left;
+}
+
+.keyButtonBackText{
+    font-size: 25px;
+    margin: -2px;
+    padding: 0;
+    text-align: center;
+    font-family: Arial;
+    color: #66c9dd;
+}
+
+.keyButtonTab{
+    width: 45px;
+    height: 28px;
+    border-radius: 0.2em;
+    background-color: #fcf7fa;
+    box-shadow: 0px 4px 0px #f7f2f4, 0px 3px 5px #8EECFF;
+    cursor: pointer;
+    float: left;
+}
+
+.keyButtonTab:active{
+    width: 45px;
+    height: 28px;
+    border-radius: 0.2em;
+    background-color: #f2eff1;
+    box-shadow: 0px 4px 0px #f7f2f4, 0px 3px 15px #6bb1bf;
+    cursor: pointer;
+    float: left;
+}
+
+.keyButtonTabText{
+    font-size: 8px;
+    padding: 0;
+    text-align: center;
+    font-family: Arial;
+    color: #66c9dd;
+}
+
+.keyButtonEnter{
+    width: 52px;
+    height: 28px;
+    border-top-left-radius: 0.2em;
+    border-top-right-radius: 0.2em;
+    border-bottom-left-radius: 0.2em;
+    background-color: #fcf7fa;
+    box-shadow: 0px 4px 0px #f7f2f4, 0px 3px 5px #8EECFF;
+    cursor: pointer;
+    float: left;
+}
+
+.keyButtonEnter:active{
+    width: 52px;
+    height: 28px;
+    border-radius: 0.2em;
+    background-color: #f2eff1;
+    box-shadow: 0px 4px 0px #f7f2f4, 0px 3px 15px #6bb1bf;
+    cursor: pointer;
+    float: left;
+}
+
+.keyButtonEnterText{
+    font-size: 8px;
+    margin-top: 9px;
+    padding: 0;
+    text-align: center;
+    font-family: Arial;
+    color: #66c9dd;
+}
+
+.keyButtonSpace{
+    width: 214px;
+    height: 28px;
+    border-top-left-radius: 0.2em;
+    border-top-right-radius: 0.2em;
+    border-bottom-left-radius: 0.2em;
+    background-color: #fcf7fa;
+    box-shadow: 0px 4px 0px #f7f2f4, 0px 3px 5px #8EECFF;
+    cursor: pointer;
+    float: left;
+}
+
+.keyButtonSpace:active{
+    width: 214px;
+    height: 28px;
+    border-radius: 0.2em;
+    background-color: #f2eff1;
+    box-shadow: 0px 4px 0px #f7f2f4, 0px 3px 15px #6bb1bf;
+    cursor: pointer;
+    float: left;
+}
+
+.keyButtonSpaceText{
+    font-size: 8px;
+    margin-top: 9px;
+    padding: 0;
+    text-align: center;
+    font-family: Arial;
+    color: #66c9dd;
+}
+
+.KeyArrowUp{
+    width: 29px;
+    height: 28px;
+    border-radius: 0.2em;
+    background-color: #fcf7fa;
+    box-shadow: 0px 4px 0px #f7f2f4, 0px 3px 5px #8EECFF;
+    cursor: pointer;
+    margin-left: 55px;
+}
+
+.KeyArrowUp:active{
+    width: 29px;
+    height: 28px;
+    border-radius: 0.2em;
+    background-color: #f2eff1;
+    box-shadow: 0px 4px 0px #f7f2f4, 0px 3px 15px #6bb1bf;
+    margin-left: 55px;
+    cursor: pointer;
+}
+
+.KeyArrowUpText{
+    font-size: 8px;
+    text-align: center;
+    padding-top: 4px;
+    font-family: Arial;
+    color: #66c9dd;
+}
+
+.KeyArrowLeft{
+    width: 29px;
+    height: 28px;
+    border-radius: 0.2em;
+    background-color: #fcf7fa;
+    box-shadow: 0px 4px 0px #f7f2f4, 0px 3px 5px #8EECFF;
+    cursor: pointer;
+    float: left;
+    margin-left: 20px;
+}
+
+.KeyArrowLeft:active{
+    width: 29px;
+    height: 28px;
+    border-radius: 0.2em;
+    background-color: #f2eff1;
+    box-shadow: 0px 4px 0px #f7f2f4, 0px 3px 15px #6bb1bf;
+    cursor: pointer;
+}
+
+.KeyArrowLeftText{
+    font-size: 8px;
+    text-align: center;
+    padding-top: 4px;
+    font-family: Arial;
+    color: #66c9dd;
+}
+
+.KeyArrowDown{
+    width: 29px;
+    height: 28px;
+    border-radius: 0.2em;
+    background-color: #fcf7fa;
+    box-shadow: 0px 4px 0px #f7f2f4, 0px 3px 5px #8EECFF;
+    cursor: pointer;
+    float: left;
+    margin-left: 7px;
+}
+
+.KeyArrowDown:active{
+    width: 29px;
+    height: 28px;
+    border-radius: 0.2em;
+    background-color: #f2eff1;
+    box-shadow: 0px 4px 0px #f7f2f4, 0px 3px 15px #6bb1bf;
+    cursor: pointer;
+}
+
+.KeyArrowDownText{
+    font-size: 8px;
+    text-align: center;
+    padding-top: 4px;
+    font-family: Arial;
+    color: #66c9dd;
+}
+
+.KeyArrowRight{
+    width: 29px;
+    height: 28px;
+    border-radius: 0.2em;
+    background-color: #fcf7fa;
+    box-shadow: 0px 4px 0px #f7f2f4, 0px 3px 5px #8EECFF;
+    cursor: pointer;
+    float: left;
+}
+
+.KeyArrowRight:active{
+    width: 29px;
+    height: 28px;
+    border-radius: 0.2em;
+    background-color: #f2eff1;
+    box-shadow: 0px 4px 0px #f7f2f4, 0px 3px 15px #6bb1bf;
+    cursor: pointer;
+}
+
+.KeyArrowRightText{
+    font-size: 8px;
+    text-align: center;
+    padding-top: 4px;
+    font-family: Arial;
+    color: #66c9dd;
+}
